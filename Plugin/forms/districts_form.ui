@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>districts_form</class>
+ <widget class="QWidget" name="districts_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Geolimi - Districts</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btnAdd">
+       <property name="minimumSize">
+        <size>
+         <width>65</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Ajouter un district</string>
+       </property>
+       <property name="text">
+        <string>Ajout</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/add.png</normaloff>icons/add.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnDelete">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>65</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Supprimer le district</string>
+       </property>
+       <property name="text">
+        <string>Suppression</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/plugins/geolimi/icons/delete.png</normaloff>:/plugins/geolimi/icons/delete.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="tvdistricts"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnQuitter">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Quitter la fenêtre et valider</string>
+     </property>
+     <property name="text">
+      <string>Quitter</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/plugins/geolimi/icons/quit.png</normaloff>:/plugins/geolimi/icons/quit.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

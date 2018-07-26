@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>type_activite_form</class>
+ <widget class="QDialog" name="type_activite_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Geolimi - Acitivite - Ajout</string>
+  </property>
+  <property name="toolTip">
+   <string>Quitter la fenêtre et valider</string>
+  </property>
+  <widget class="QTableView" name="tvType_activite">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>361</width>
+     <height>538</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnQuitter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>600</y>
+     <width>361</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>75</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/plugins/geolimi/icons/quit.png</normaloff>:/plugins/geolimi/icons/quit.png</iconset>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>361</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="btnAdd">
+      <property name="minimumSize">
+       <size>
+        <width>65</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>Ajouter une nouvelle activité</string>
+      </property>
+      <property name="text">
+       <string>Ajout</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/plugins/geolimi/icons/add.png</normaloff>:/plugins/geolimi/icons/add.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnDelete">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>65</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>Supprimer l'activité</string>
+      </property>
+      <property name="text">
+       <string>Suppression</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/plugins/geolimi/icons/delete.png</normaloff>:/plugins/geolimi/icons/delete.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
